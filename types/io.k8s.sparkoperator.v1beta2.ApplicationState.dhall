@@ -1,0 +1,4 @@
+{
+, state : Text
+, errorMessage : Text
+}

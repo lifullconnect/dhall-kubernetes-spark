@@ -1,0 +1,38 @@
+name: CI
+on:
+  pull_request:
+    paths-ignore:
+      - '*.md'
+      - LICENSE
+      - '*.txt'
+      - '*.sh'
+  push:
+    paths-ignore:
+      - '*.md'
+      - LICENSE
+      - '*.txt'
+      - '*.sh'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Cache Dhall files
+        id: cache-dhall
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cache/dhall
+            ~/.cache/dhall-haskell
+          key: ${{ runner.os }}-dhall
+      - name: Setup Dhall
+        uses: dhall-lang/setup-dhall@v4
+        with:
+          version: '1.39.0'
+      - name: Setup Kubeval
+        uses: lra/setup-kubeval@v1
+      - name: Run and validate examples
+        run: |
+          for f in $(ls ./examples/*.dhall); do dhall-to-yaml-ng --output "${f}.generated.yaml" <<< "$f"; done
+          for f in $(ls ./examples/*.dhall); do kubeval --kubernetes-version 1.18.1 --skip-kinds SparkApplication "${f}.generated.yaml"; done
