@@ -14,7 +14,7 @@ let labels = toMap {
 }
 
 let podSecurityContext = kubernetes.PodSecurityContext::{
-    , fsGroup = Some +185 
+    , fsGroup = Some 185 
 }
 
 let sparkLogsVolumeMount = kubernetes.VolumeMount::{

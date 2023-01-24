@@ -21,13 +21,13 @@
       sha256:81dbc995cdd81f3e9275c73f0300f4d92c74db893add2ae4b51f4d238a31a38f
 , DriverSpec =
     ./types/io.k8s.sparkoperator.v1beta2.DriverSpec.dhall
-      sha256:8957c1025382d8e6a8ffa8a779559a9e047a05c37ec7a0bd4472fb28bb1039da
+      sha256:a4b2ce2d0e1949c0134250577c198d0d73a9f79d2ce2d6de1bb4f7c4dbf07bed
 , DynamicAllocation =
     ./types/io.k8s.sparkoperator.v1beta2.DynamicAllocation.dhall
       sha256:cc535c19abda3d90f665ecbb6796d1d952f57631b53758348e123632552057c5
 , ExecutorSpec =
     ./types/io.k8s.sparkoperator.v1beta2.ExecutorSpec.dhall
-      sha256:510c48eeed6f4e0a41deae44c82dcbf721f3850d6c7a3303663d2f9fc5734ee6
+      sha256:821e1f210b2faa5b8149d586a2c5b970dcf9ac74faeb6ffae70c8a2f06e4df75
 , MonitoringSpec =
     ./types/io.k8s.sparkoperator.v1beta2.MonitoringSpec.dhall
       sha256:b7e49f49bf2328521113161a2f108074bd808a2da4da9b41eba0761970b0097f
@@ -39,17 +39,17 @@
       sha256:d44e0bfea65d585345cc9c553f243fb5baef1d847e384265cddbfc1fb2a26cf5
 , SparkApplication =
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplication.dhall
-      sha256:b71d0fec8388603775e536a265b79d29b1b0d544c3655feb1fd1a3d7c4295310
+      sha256:47c547d62c85c3693ebc3dcf38a8925f2885b7ee7d186c1915a2ba45f5339cbd
 , SparkApplicationSpec =
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplicationSpec.dhall
-      sha256:54c6b8c38d09d07d7079f047e7bae5fb5f01ee10025fff27694180bb23b43d8e
+      sha256:5b7d5b7c077419bdeb5f0eacc978d26271f7583d05f160f16e1d47f1a032fbf8
 , SparkApplicationStatus =
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplicationStatus.dhall
       sha256:afff964fd9f6d52943727cca3b62a20011c349fd8c807254f350c24195b1a6f8
 , SparkPodSpec =
     ./types/io.k8s.sparkoperator.v1beta2.SparkPodSpec.dhall
-      sha256:e6debe67791a55e250c761a9d305b127e5a553304cd27ae11e8e936a85eda625
+      sha256:f0f7543f9ff790b9ad6392126c88414b02bb1e106e3afd0d5669d3a4238fe123
 , SparkUIConfiguration =
     ./types/io.k8s.sparkoperator.v1beta2.SparkUIConfiguration.dhall
-      sha256:5107142d99896ee96e4d01ccd615f8f1b90a16431809ff4b2c5df75cfba08c28
+      sha256:d04c8045025f65c66d0f74571bfd826b2bd6cc4603471948ee95f50898e4a66f
 }
