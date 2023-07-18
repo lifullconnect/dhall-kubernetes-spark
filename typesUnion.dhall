@@ -21,13 +21,13 @@
       sha256:81dbc995cdd81f3e9275c73f0300f4d92c74db893add2ae4b51f4d238a31a38f
 | DriverSpec :
     ./types/io.k8s.sparkoperator.v1beta2.DriverSpec.dhall
-      sha256:a4b2ce2d0e1949c0134250577c198d0d73a9f79d2ce2d6de1bb4f7c4dbf07bed
+      sha256:8fdd6e9b468ccdfce33de16332f69d7c2eb0c9bfc010e742f15411b7ac6af58a
 | DynamicAllocation :
     ./types/io.k8s.sparkoperator.v1beta2.DynamicAllocation.dhall
       sha256:cc535c19abda3d90f665ecbb6796d1d952f57631b53758348e123632552057c5
 | ExecutorSpec :
     ./types/io.k8s.sparkoperator.v1beta2.ExecutorSpec.dhall
-      sha256:821e1f210b2faa5b8149d586a2c5b970dcf9ac74faeb6ffae70c8a2f06e4df75
+      sha256:f4864ca91e8684fe266dafbe6be7ca9be229b7123ccd35ec58ad21f0f072017f
 | MonitoringSpec :
     ./types/io.k8s.sparkoperator.v1beta2.MonitoringSpec.dhall
       sha256:b7e49f49bf2328521113161a2f108074bd808a2da4da9b41eba0761970b0097f
@@ -39,16 +39,16 @@
       sha256:d44e0bfea65d585345cc9c553f243fb5baef1d847e384265cddbfc1fb2a26cf5
 | SparkApplication :
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplication.dhall
-      sha256:47c547d62c85c3693ebc3dcf38a8925f2885b7ee7d186c1915a2ba45f5339cbd
+      sha256:3d29177453cb1683cbd07c165f8a1cf26d8f002d931d9165e1eb90364e30dd7e
 | SparkApplicationSpec :
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplicationSpec.dhall
-      sha256:5b7d5b7c077419bdeb5f0eacc978d26271f7583d05f160f16e1d47f1a032fbf8
+      sha256:5ae7883fb05a7b89b0648c579172794a386fd6657c6ce3fc5554a49e1519be6a
 | SparkApplicationStatus :
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplicationStatus.dhall
       sha256:afff964fd9f6d52943727cca3b62a20011c349fd8c807254f350c24195b1a6f8
 | SparkPodSpec :
     ./types/io.k8s.sparkoperator.v1beta2.SparkPodSpec.dhall
-      sha256:f0f7543f9ff790b9ad6392126c88414b02bb1e106e3afd0d5669d3a4238fe123
+      sha256:043858d00c82f820e6aec23fcdc60b7e9ddacc99ce8a3a6d1df04f98faa9ec08
 | SparkUIConfiguration :
     ./types/io.k8s.sparkoperator.v1beta2.SparkUIConfiguration.dhall
       sha256:d04c8045025f65c66d0f74571bfd826b2bd6cc4603471948ee95f50898e4a66f
