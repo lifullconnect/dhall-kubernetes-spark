@@ -21,13 +21,13 @@
       sha256:81dbc995cdd81f3e9275c73f0300f4d92c74db893add2ae4b51f4d238a31a38f
 , DriverSpec =
     ./types/io.k8s.sparkoperator.v1beta2.DriverSpec.dhall
-      sha256:46d0c8e6bfa305a4d81ac5faf63a986d4cbaab8ce97ef29faf130d72fbd9e841
+      sha256:fdf70d3cc20c6d2456d2cae98d8b20273d9c2f3eabc4c23768d3e21841b593d2
 , DynamicAllocation =
     ./types/io.k8s.sparkoperator.v1beta2.DynamicAllocation.dhall
       sha256:cc535c19abda3d90f665ecbb6796d1d952f57631b53758348e123632552057c5
 , ExecutorSpec =
     ./types/io.k8s.sparkoperator.v1beta2.ExecutorSpec.dhall
-      sha256:50451408b8efc6a6d3c3d8fe078c27d67ade5e95063f43c2d4557d7de133416a
+      sha256:d65b39c921ce1048ecf160c7905eaf81f86ed47f7c51a9213a31b82835876560
 , MonitoringSpec =
     ./types/io.k8s.sparkoperator.v1beta2.MonitoringSpec.dhall
       sha256:b7e49f49bf2328521113161a2f108074bd808a2da4da9b41eba0761970b0097f
@@ -39,16 +39,16 @@
       sha256:d44e0bfea65d585345cc9c553f243fb5baef1d847e384265cddbfc1fb2a26cf5
 , SparkApplication =
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplication.dhall
-      sha256:53983aeaf87a896580f149c3deec72eae41d3b625c9e054a8ab8802614bd4df9
+      sha256:7a31b221571551cfb6488bc0cdfc30e2c007de12715f9f418a065d7b839a58e4
 , SparkApplicationSpec =
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplicationSpec.dhall
-      sha256:ba0c5d86535f1f68fbca0c5512dcf3d93d66a5366da260aa7ba7e116448d5b9d
+      sha256:89246782ec0c6bc60cb29ae353163a434ece7da2a88ab2a106d0661c0b28a8c1
 , SparkApplicationStatus =
     ./types/io.k8s.sparkoperator.v1beta2.SparkApplicationStatus.dhall
       sha256:afff964fd9f6d52943727cca3b62a20011c349fd8c807254f350c24195b1a6f8
 , SparkPodSpec =
     ./types/io.k8s.sparkoperator.v1beta2.SparkPodSpec.dhall
-      sha256:ce0fcb7a8a1a8c9be76cd280f910da94eb7facbcce46719daa4890d703c82a09
+      sha256:f386b9ee59c7b6560f1d8971a9f7210122ff67a25f5dbf25e61aff32cb75549e
 , SparkUIConfiguration =
     ./types/io.k8s.sparkoperator.v1beta2.SparkUIConfiguration.dhall
       sha256:b68705d1f1f32530c814d18d8df9630053b2d20df404f21cb1ea52cb92b256da

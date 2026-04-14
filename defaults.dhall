@@ -21,13 +21,13 @@
       sha256:47657edf3ab800654f05fa6e6cf6eb11699dad12e5bd517880bbc1d218487523
 , DriverSpec =
     ./schemas/io.k8s.sparkoperator.v1beta2.DriverSpec.dhall
-      sha256:216df0fa17638d05e3f5ae141744308f13f584ffbfdba1c1cb0740342aeec1aa
+      sha256:3a5c23058fbfad1000da644e87bb589efa142a13ff418a2799caee2f8393450f
 , DynamicAllocation =
     ./schemas/io.k8s.sparkoperator.v1beta2.DynamicAllocation.dhall
       sha256:71d159ca623107c54eb6ca66fc083b5dbeb0ae47f2f83857032b7e330af96fb3
 , ExecutorSpec =
     ./schemas/io.k8s.sparkoperator.v1beta2.ExecutorSpec.dhall
-      sha256:3f893b2faa6b801d488fb980b4bc72b30eb46596752094039f04558411af8e9b
+      sha256:f0285b7c04cff5f5292ff5fac9810d17240757fc109107821c672319902f0eb8
 , MonitoringSpec =
     ./schemas/io.k8s.sparkoperator.v1beta2.MonitoringSpec.dhall
       sha256:ea8562c8dd5865749633148d085d5d7dc3c2730be71bc34a857f4883e9e74d8d
@@ -39,16 +39,16 @@
       sha256:4c503ffa0307a68c824f4a92a10c5fe451cb6bf5b6467d05ac124fec15fb44e3
 , SparkApplication =
     ./schemas/io.k8s.sparkoperator.v1beta2.SparkApplication.dhall
-      sha256:dd6cc286fd71b2b923f52f9bba5b26cf29784c2218a22889d7874a1dc621b8a4
+      sha256:648a05509be147f4f0793a2ebe5a5ae0783bf14eb82eacfe1c240a4ab93a0d69
 , SparkApplicationSpec =
     ./schemas/io.k8s.sparkoperator.v1beta2.SparkApplicationSpec.dhall
-      sha256:70329fc3e6791faafb82317877a8709f8c09a783fefe464a185b2941810a039d
+      sha256:4a8b14e886714d1e53c5c488299153831871404fc637ba8ac13a82d71ce56238
 , SparkApplicationStatus =
     ./schemas/io.k8s.sparkoperator.v1beta2.SparkApplicationStatus.dhall
       sha256:014f175b592023a452481988fca3a243d8309c086a87cf6a38280fd45c67b06e
 , SparkPodSpec =
     ./schemas/io.k8s.sparkoperator.v1beta2.SparkPodSpec.dhall
-      sha256:1f155af47d21880eaa4926f9cc4e3eb3406ed2194e719fdc971ec95de5985a86
+      sha256:a1f76443007600478fff08b8410dc8806dd2c2d780a503f0e4dbcebf93d153b8
 , SparkUIConfiguration =
     ./schemas/io.k8s.sparkoperator.v1beta2.SparkUIConfiguration.dhall
       sha256:a8fc95cc89a82238c8660c7171eed7f04b72ea0f34e337dc59e3a2df30e4ec19
